@@ -10,6 +10,9 @@ package com.yang.spring.dao;
 public class UserDao {
     public void save() {
         System.out.println("User save is running ");
-        int i = 1 / 0;
+        try {
+            int i = 1 / 0;
+        } catch (Exception e) {
+        }
     }
 }
