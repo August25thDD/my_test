@@ -9,7 +9,7 @@ package com.yang.spring.dao;
 
 public class UserDao {
     public void save() {
-        System.out.println("User save" +
-                " is running ");
+        System.out.println("User save is running ");
+        int i = 1 / 0;
     }
 }
