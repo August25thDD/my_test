@@ -15,5 +15,7 @@ public class UserDao {
         } catch (Exception e) {
         }
         int j = 1 / 0;
+        System.out.println("其他同事接着写代码1");
+        System.out.println("其他同事接着写代码2");
     }
 }
