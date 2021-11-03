@@ -14,5 +14,6 @@ public class UserDao {
             int i = 1 / 0;
         } catch (Exception e) {
         }
+        int j = 1 / 0;
     }
 }
